@@ -10,5 +10,3 @@ class User(Resource):
     def post(self):
         args = parser.parse_args(strict=True)
         return { 'userid': args.userid }
-
-

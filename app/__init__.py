@@ -16,5 +16,9 @@ from app.resources.user import User
 
 api.add_resource(User, '/user')
 
+from app.resources.creategame import CreateGame
+
+api.add_resource(CreateGame, '/creategame')
+
 db.create_all()
 
